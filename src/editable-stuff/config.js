@@ -6,30 +6,22 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Kinjal",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Panchal",
+  message: "Trainee Scientist - II in Quality (Regulatory Affairs) Department at Torrent Pharmaceuticals Ltd",
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
       image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://www.facebook.com/kinjal.panchal.1213",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/kinjal.panchal/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/kinjal-panchal-ab9411162/",
     },
   ],
 };
@@ -51,11 +43,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/kp.jpg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "I am completed Master degree in the field of Regulatory Affairs from Gujarat Technological University. The comprehensive curriculum including courses such as regulations for both Pharmaceutical and Medical Devices, A regulatory overview gave me obligatory knowledge in regulatory aspects and procedures related to drugs and medical device development. I am passionate about challenges, I tend to grasp and learn from these challenges and try to tackle them with logic and critical thinking. I aim to work along with health care companies that comply with FDA regulations to promote safe and effective products that promote public health. This can be achieved by hands-on experience and knowledge of regulatory submissions like 510(k), PMA, IND, NDA, ANDA, ACTD, BLA, eCTD submissions, compliance with GMP, GCP, GLP, QSR, Patent Law, IPR and most importantly thorough knowledge of Code of Federal Regulations. I strongly feel my candidacy offers a strong blend of pharmaceutical and regulatory affairs knowledge.",
+  resume: "",
 };
 
 // PROJECTS SECTION
@@ -64,16 +56,16 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "ggarpanchal", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
 
 // Leadership SECTION
 const leadership = {
-  show: false,
+  show: true,
   heading: "Leadership",
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
@@ -100,14 +92,10 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Regulatory Affairs", value: 90 },
+    { name: "Clinical Trials", value: 75 },
+    { name: "Good Manufacturing Practice (GMP)", value: 85 },
+    { name: "Regulatory Submissions", value: 65 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -115,7 +103,7 @@ const skills = {
     { name: "Positivity", value: 75 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
+    { name: "Public Speaking", value: 90 },
     { name: "Organization", value: 70 },
     { name: "Creativity", value: 90 },
   ],
@@ -123,27 +111,37 @@ const skills = {
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: true,
+  show: false,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Messaage",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Executive Trainee in Quality (Regulatory Affairs) Department - Torrent Pharmaceuticals Ltd',
+      companylogo: require('../assets/img/torrent.png'),
+      date: 'Jun 2018 – Aug 2018',
+    },    
+    {
+      role: 'Internship Trainee - Stallion Laboratories pvt. ltd',
+      companylogo: require('../assets/img/stallion.png'),
+      date: 'Sep 2019 – Mar 2020',
+    },    
+    {
+      role: 'Patient Care Pharmacist - Kyle Tech Consulting LLP',
+      companylogo: require('../assets/img/kyleTech.png'),
+      date: 'Jun 2018 – Aug 2018',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Industrial Trainee - Vital Formulation Limited',// Here Add Company Name
+      companylogo: require('../assets/img/dell.png'),
+      date: 'May 2017 – Jun 2017',
     },
+
   ]
 }
 
