@@ -77,6 +77,7 @@ const leadership = {
     },
     { 
       img: require("../editable-stuff/hashirshoaeb.png"), 
+     
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
